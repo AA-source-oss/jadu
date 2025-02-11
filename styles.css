@@ -1,0 +1,107 @@
+/* Reset some basic elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+p {
+  color: #666;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+/* Section styles */
+section {
+  padding: 50px 0;
+}
+
+#home {
+  background-color: #fff;
+}
+
+#about {
+  background-color: #e9ecef;
+}
+
+#services {
+  background-color: #fff;
+}
+
+#contact {
+  background-color: #f8f9fa;
+}
+
+form {
+  margin-top: 20px;
+}
+
+form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+form input[type="submit"] {
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
